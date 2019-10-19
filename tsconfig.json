@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"]
+  },
+  "exclude": ["node_modules", "scripts", "acceptance-tests", "webpack", "jest", "src/setupTests.ts", "dist"]
+}
